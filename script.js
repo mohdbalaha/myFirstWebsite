@@ -1,8 +1,11 @@
 let btn = document.getElementById('cipher');
 btn.onclick = function () {
-    let str = prompt('Enter a text to cipher:');
-    alert(rot13(str));
+    out.innerText = rot13(txt.value);
 }
+
+let txt = document.getElementById('text');
+
+let out = document.getElementById('output');
 
 function rot13(message) {
     //your code here
