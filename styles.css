@@ -1,27 +1,28 @@
-.main{
-    text-align:center; 
-    background-image:url("./img/background.png");
+.content {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+/* #aboutme {
+  text-align: center;
+} */
+/* h1 {
+  text-decoration: underline;
+} */
+#demo-button {
+  background-color: blue;
+  color: white;
+}
+.blue {
+  color: blue;
+}
+.thick {
+  font-size: 20px;
 }
 
-.fieldset{
-    margin: 20px 60px;
+.hide {
+  visibility: hidden;
 }
-
-.img{
-    padding: 15px;
-    border: 3px dotted black;
-}
-
-.form{
-    width:600px;
-    margin:20px auto;
-    border: 3px dotted black;
-
-}
-
-.description{
-    width:500px;
-    margin:20px auto;
-    padding:20px;
-    border: 3px dotted black;
+.show {
+  visibility: visible;
 }

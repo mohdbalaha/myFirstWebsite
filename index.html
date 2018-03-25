@@ -1,49 +1,102 @@
 <!DOCTYPE html>
+<html>
 
 <head>
     <meta charset="utf-8">
+    <title>Nour's Webpage</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>Rot13</title>
 </head>
 
 <body>
-    <div class='main'>
-        <h1 style='border:3px dotted black '>Rot13</h1>
-        <h2>Cipher your text now!</h2>
-        <img class='img' src='./img/ROT13_table.png'>
-
-        <div class='form'>
-            <p>Please input a message:</p>
-            <textarea id="text" cols="60" rows="20"></textarea>
-            <br>
-            <br>
-            <button id="cipher">cipher</button>
-            <button id="decipher">decipher</button>
-            <br>
-            <br>
-        </div>
-
-        <h2>Description:</h2>
-        <p class='description'>
-            Applyiclassng ROT13 to a piece of text merely requires examining
-            its alphabetic characters and replacing each one by the letter
-            13 places further along in the alphabet, wrapping back to the
-            beginning if necessary. [3] A becomes N, B becomes
-            O, and so on up to M, which becomes Z, then the sequence
-            continues at the beginning of the alphabet: N becomes
-            A, O becomes B, and so on to Z, which becomes M. Only
-            those letters which occur in the English alphabet are affected;
-            numbers, symbols, whitespace, and all other characters are left
-            unchanged. Because there are 26 letters in the
-            English alphabet and 26 = 2 × 13, the ROT13 function
-            is its own inverse.
-            <br>
+    <div class="content">
+        <p>
+            <span>
+                <a href="#home">Home</a>
+            </span>
+            <span>
+                <a href="#aboutme">About Me</a>
+            </span>
+            <span>
+                <a href="#hobbies">My Hobbies</a>
+            </span>
+            <span>
+                <a href="#song">Favorite Song</a>
+            </span>
+            <span>
+                <a href="#contact">Contact Me</a>
+            </span>
+            <span>
+                <a href="#comments">Comment</a>
+            </span>
         </p>
+        <div id="home">
+            <h1>Welcome To Nour's Webpage!</h1>
+        </div>
         <br>
+        <div id="aboutme">
+            <img src="./img/img.png" alt="my photo">
+            <br>
+            <h2>About Me</h2>
+            <h3>Name:</h3>
+            <p>My Name is:
+                <strong>Nour</strong>.</p>
+            <p>My Name in Arabic:
+                <strong>نور</strong>.</p>
+            <p>My Name in Kana:
+                <strong>ヌロ</strong>.</p>
+            <h3>Country:</h3>
+            <p> I am from Syria.</p>
+            <h3>Old:</h3>
+            <p>I am 29 years old.</p>
+            <h3>Occupation:</h3>
+            <p>I used to be a Lawyer but now I am changing my career to software engineering.</p>
+        </div>
         <br>
-        <p>Source: https://www.wikipedia.com</p>
-        <script type="text/javascript" src="script.js"></script>
-    </div>
+        <div id="hobbies">
+            <h2>My Hobbies</h2>
+            <p>Love coding.</p>
+            <p>Gaming Inthusiast.</p>
+            <p>Music is my life.</p>
+            <p>a cup of coffee always makes my day!</p>
+            <br>
+            <div id="song">
+                <h2>My favorite song</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/51CH3dPaWXc" frameborder="0" allow="autoplay; encrypted-media"
+                    allowfullscreen></iframe>
+                <br>
+                <div id="contact">
+                    <h2>Contact Me</h2>
+                    <p>Cellphone: 08089132305.</p>
+                    <p>Email:nourbalaha0@gmail.com.</p>
+                    <a href="https://www.facebook.com/nour.balaha/" target="_blank">
+                        <img src="./img/fb.png" width="50" height="50">
+                    </a>
+                    <a href="https://www.youtube.com/nourbalaha" target="_blank">
+                        <img src="./img/youtube.jpg" width="50" height="50">
+                    </a>
+                    <a href="https://www.instagram.com/balahanour/" target="_blank">
+                        <img src="./img/insta.jpg" width="50" height="50">
+                    </a>
+                </div>
+                <br>
+            </div>
+            <br>
+            <div id="comments">
+                <h2>Comments:</h2>
+                <p>
+                    <span>Name:</span>
+                    <textarea id="names"></textarea>
+                </p>
+                <p>
+                    <span>Comment:</span>
+                    <textarea id="comment"></textarea>
+                </p>
+                <p>
+                    <button id="submit">Submit</button>
+                </p>
+            </div>
+            <script type="text/javascript" src="script.js"></script>
+        </div>
 </body>
 
 </html>
