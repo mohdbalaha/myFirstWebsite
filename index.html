@@ -8,35 +8,38 @@
 </head>
 
 <body>
-    <div class="content">
-        <p>
-            <span>
+
+    <header class="nav">
+        <ul>
+            <li>
                 <a href="#home">Home</a>
-            </span>
-            <span>
+            </li>
+            <li>
                 <a href="#aboutme">About Me</a>
-            </span>
-            <span>
+            </li>
+            <li>
                 <a href="#hobbies">My Hobbies</a>
-            </span>
-            <span>
+            </li>
+            <li>
                 <a href="#song">Favorite Song</a>
-            </span>
-            <span>
+            </li>
+            <li>
                 <a href="#contact">Contact Me</a>
-            </span>
-            <span>
-                <a href="#comments">Comment</a>
-            </span>
-        </p>
-        <div id="home">
-            <h1>Welcome To Nour's Webpage!</h1>
-        </div>
-        <br>
-        <div id="aboutme">
-            <img src="./img/img.png" alt="my photo"><br>
-            <img src='https://www.codewars.com/users/mohdbalaha/badges/micro'>
+            </li>
+        </ul>
+    </header>
+    <section id="home">
+        <h1>Welcome To Nour's Webpage!</h1>
+
+
+        <figure>
+            <img src="./img/img.png" alt="my photo">
             <br>
+            <img src='https://www.codewars.com/users/mohdbalaha/badges/micro'>
+        </figure>
+    </section>
+    <section id="aboutme">
+        <article>
             <h2>About Me</h2>
             <h3>Name:</h3>
             <p>My Name is:
@@ -51,55 +54,41 @@
             <p>I am 29 years old.</p>
             <h3>Occupation:</h3>
             <p>I used to be a Lawyer but now I am changing my career to software engineering.</p>
-            
+        </article>
 
-        </div>
-        <br>
-        <div id="hobbies">
+    </section>
+    <section id="hobbies">
+        <article>
             <h2>My Hobbies</h2>
             <p>Love coding.</p>
             <p>Gaming Inthusiast.</p>
             <p>Music is my life.</p>
             <p>a cup of coffee always makes my day!</p>
-            <br>
-            <div id="song">
-                <h2>My favorite song</h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/51CH3dPaWXc" frameborder="0" allow="autoplay; encrypted-media"
-                    allowfullscreen></iframe>
-                <br>
-                <div id="contact">
-                    <h2>Contact Me</h2>
-                    <p>Cellphone: 08089132305.</p>
-                    <p>Email:nourbalaha0@gmail.com.</p>
-                    <a href="https://www.facebook.com/nour.balaha/" target="_blank">
-                        <img src="./img/fb.png" width="50" height="50">
-                    </a>
-                    <a href="https://www.youtube.com/nourbalaha" target="_blank">
-                        <img src="./img/youtube.jpg" width="50" height="50">
-                    </a>
-                    <a href="https://www.instagram.com/balahanour/" target="_blank">
-                        <img src="./img/insta.jpg" width="50" height="50">
-                    </a>
-                </div>
-                <br>
-            </div>
-            <br>
-            <div id="comments">
-                <h2>Comments:</h2>
-                <p>
-                    <span>Name:</span>
-                    <textarea id="names"></textarea>
-                </p>
-                <p>
-                    <span>Comment:</span>
-                    <textarea id="comment"></textarea>
-                </p>
-                <p>
-                    <button id="submit">Submit</button>
-                </p>
-            </div>
-            <script type="text/javascript" src="script.js"></script>
-        </div>
+        </article>
+    </section>
+    <section id="song">
+        <article>
+            <h2>My favorite song</h2>
+        </article>
+        <figure>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/51CH3dPaWXc" frameborder="0" allow="autoplay; encrypted-media"
+                allowfullscreen></iframe>
+        </figure>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Cellphone: 08089132305.</p>
+        <p>Email:nourbalaha0@gmail.com.</p>
+        <a href="https://www.facebook.com/nour.balaha/" target="_blank">
+            <img src="./img/fb.png" width="50" height="50">
+        </a>
+        <a href="https://www.youtube.com/nourbalaha" target="_blank">
+            <img src="./img/youtube.jpg" width="50" height="50">
+        </a>
+        <a href="https://www.instagram.com/balahanour/" target="_blank">
+            <img src="./img/insta.jpg" width="50" height="50">
+        </a>
+    </section>
 </body>
 
 </html>
